@@ -1,0 +1,39 @@
+git bash is simply a linux terminal for git commands
+
+reece@DESKTOP-SB94ROJ - who is using this terminal and where are they located 
+
+MINGW64 - Operating System we are using
+
+~/where/i/currently/am - IS the folder we are currently in
+
+~ tilde refers to the home directory of this computer 
+
+ls - to list files here
+
+cd .. - navigate to a previous folder
+
+cd <name of location> - navigate to folder
+
+cat - print out contents of file  (short for concatenate)
+
+echo "hello world" - outputs the text to the console
+>> - Take the output to the left and put it (append) in the file on the right
+
+You need to tell me who you are.. 
+git config --global user.email "your email address" 
+git config --global user.name "github username"
+
+# Commands to create a repo
+echo "# Nov_22_Git_Demo" >> README.md (append and make a file)
+
+git init (creating an empty git repo)
+
+git add README.md (telling git to track this file)
+
+git commit -m "first commit" (confirming we want to track this)
+
+git branch -M main (setting our main branch)
+
+git remote add origin https://github.com/Reece-elder/Nov_22_Git_Demo.git (telling git our remote repo (Github stored repo) is at this URL)
+
+git push -u origin main 
