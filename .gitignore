@@ -1,0 +1,11 @@
+# Press I to enter insert mode so you are able to insert text
+
+# Ignore these two specific files
+secrets.md
+password.txt
+
+# Ignore all files ending in .md
+*.md
+
+# Don't ignore README.md
+!README.md

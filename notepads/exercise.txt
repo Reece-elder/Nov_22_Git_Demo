@@ -1,0 +1,11 @@
+Merging / Pull Request Exercise
+
+Add some text to one of your feature files in one of the feature branches
+
+print("hello world") -> feat_2 in the feature 2 branch
+"Hello this is some text in a file" 
+
+Within your groups (5 groups of 2, 1 group of 3) invite the other person (A -> B -> C -> A) as a collaborator to your project, create a pull request and get your partner to review your code. 
+Preferably comment on the code specifically and make a suggestion for changes 
+
+Branch protection rules, when entering the pattern either enter the name of the branch you want to protect Dev OR use * to cover ALL branches 
