@@ -1,0 +1,22 @@
+Main branch - Reserved for Stable Production Builds
+Dev branch - Reserved for developer stable builds and hot fixes
+Feature branches - Where we implement new code
+
+Branch from Main -> Dev
+Dev -> Feature branch
+
+git branch - show me all current branches
+
+git branch <branch name> - Create that branch
+
+git checkout <branch name> - Use that branch 
+
+git push --set-upstream origin <name of branch> - adds this branch to the origin repo
+
+git checkout -b <branch name> - Creates a branch then checks it out
+
+git branch -d <branch name> - Deletes the branch
+
+Exercise - Create a Dev branch and push this branch up to GitHub, off of Dev branch make a feature branch and push up a file of the same name as the feature branch. Do this for 3x features
+
+!! IMPORTANT !! Make sure you checkout back to dev between each push
